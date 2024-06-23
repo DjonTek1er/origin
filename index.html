@@ -11,29 +11,29 @@
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
-<body class="flex h-screen w-screen px-20 overflow-x-hidden">
+<body class="flex h-full w-full px-20 overflow-x-hidden">
 
-    <section class="flex flex-col w-1/4 h-full  bg-orange-400 justify-between ">
+    <section class="flex flex-col w-1/4 h-full  justify-between ">
 
-        <div class="flex flex-col justify-center font-bold pt-3 text-xl">
-            <ul class="flex flex-col gap-5">
+        <nav class="flex flex-col justify-center gap-24 font-bold pt-8 text-xl">
+            <ul class="flex flex-col gap-8">
                 <div>
-                    <svg cwidth="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="40px" height="40px" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M28.5537 3.17125C27.51 3.63375 26.3888 3.94625 25.21 4.0875C26.4125 3.3675 27.335 2.225 27.77 0.865002C26.645 1.5325 25.3988 2.0175 24.0725 2.2775C23.01 1.1475 21.4975 0.440002 19.8225 0.440002C16.6075 0.440002 14 3.0475 14 6.265C14 6.72 14.0525 7.1625 14.15 7.59C9.30875 7.34625 5.02 5.0275 2.1475 1.505C1.6475 2.3675 1.36 3.3675 1.36 4.4325C1.36 6.4525 2.38875 8.23625 3.95 9.28C2.995 9.24875 2.0975 8.9875 1.3125 8.55125V8.62625C1.3125 11.4475 3.31875 13.8013 5.98375 14.3363C5.49375 14.4688 4.98 14.5388 4.45 14.5388C4.075 14.5388 3.70875 14.5038 3.35375 14.4363C4.095 16.7488 6.245 18.4338 8.79375 18.4788C6.8 20.0413 4.28875 20.9725 1.56125 20.9725C1.09125 20.9725 0.627499 20.945 0.171249 20.8913C2.74875 22.545 5.80875 23.5075 9.09625 23.5075C19.8087 23.5075 25.665 14.635 25.665 6.94C25.665 6.69 25.6588 6.4375 25.6475 6.1875C26.785 5.365 27.7725 4.34125 28.5513 3.175L28.5537 3.17125Z"
                             fill="#1DA1F2" />
                     </svg>
                 </div>
                 <div class="flex gap-3">
-                    <svg class="fill-[#1DA1F2]" xmlns="http://www.w3.org/2000/svg" height="24px"
-                        viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                    <svg class="fill-[#1DA1F2]" xmlns="http://www.w3.org/2000/svg" height="40px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
                         <path
                             d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
                     </svg>
                     <li><a href="#">Home</a></li>
                 </div>
                 <div class="flex gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
                         fill="gray-dark">
                         <path
                             d="m240-160 40-160H120l20-80h160l40-160H180l20-80h160l40-160h80l-40 160h160l40-160h80l-40 160h160l-20 80H660l-40 160h160l-20 80H600l-40 160h-80l40-160H360l-40 160h-80Zm140-240h160l40-160H420l-40 160Z" />
@@ -41,7 +41,7 @@
                     <li><a href="#">Explore</a></li>
                 </div>
                 <div class="flex gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
                         fill="gray-dark">
                         <path
                             d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z" />
@@ -49,7 +49,7 @@
                     <li><a href="#">Notifications</a></li>
                 </div>
                 <div class="flex gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
                         fill="gray-dark">
                         <path
                             d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
@@ -58,14 +58,14 @@
                 </div>
 
                 <div class="flex gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
                         fill="gray-dark">
                         <path
                             d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z" />
                     </svg><a href="#">Bookmarks</a></li>
                 </div>
                 <div class="flex gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
                         fill="gray-dark">
                         <path
                             d="M240-440h360v-80H240v80Zm0-120h360v-80H240v80Zm-80 400q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
@@ -73,7 +73,7 @@
                     <li><a href="#">Lists</a></li>
                 </div>
                 <div class="flex gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
                         fill="gray-dark">
                         <path
                             d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
@@ -81,8 +81,8 @@
                     <li><a href="#">Profile</a></li>
                 </div>
                 <div class="flex gap-3">
-                    <svg class="border border-[black] rounded-full" xmlns="http://www.w3.org/2000/svg" height="24px"
-                        viewBox="0 -960 960 960" width="24px" fill="gray-dark">
+                    <svg class="border border-[black] rounded-full" xmlns="http://www.w3.org/2000/svg" height="40px"
+                        viewBox="0 -960 960 960" width="40px" fill="gray-dark">
                         <path
                             d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z" />
                     </svg>
@@ -91,7 +91,7 @@
                 <div><button class="bg-blue-400 px-24 py-4 rounded-full text-white font-bold"
                         type="submit">Tweet</button></div>
             </ul>
-        </div>
+        </nav>
 
         <div class="flex pb-3">
             <div class="flex gap-2">
@@ -103,18 +103,19 @@
             </div>
             <div class="pl-28 flex items-center ">
                 <svg width="19" height="5" viewBox="0 0 19 5" fill="[#0F1419]" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.6875 0.09375C14.3606 0.09375 13.2812 1.17587 13.2812 2.5C13.2812 3.82413 14.3593 4.90625 15.6875 4.90625C17.013 4.90625 18.0938 3.8255 18.0938 2.5C18.0938 1.1745 17.013 0.09375 15.6875 0.09375ZM15.6875 3.53125C15.1182 3.53125 14.6562 3.06925 14.6562 2.5C14.6562 1.93212 15.1196 1.46875 15.6875 1.46875C16.2554 1.46875 16.7188 1.93075 16.7188 2.5C16.7188 3.06787 16.2568 3.53125 15.6875 3.53125ZM9.5 0.09375C8.17175 0.09375 7.09375 1.17587 7.09375 2.5C7.09375 3.82413 8.17313 4.90625 9.5 4.90625C10.8269 4.90625 11.9062 3.8255 11.9062 2.5C11.9062 1.1745 10.8282 0.09375 9.5 0.09375ZM9.5 3.53125C8.93075 3.53125 8.46875 3.06925 8.46875 2.5C8.46875 1.93212 8.93213 1.46875 9.5 1.46875C10.0679 1.46875 10.5312 1.93075 10.5312 2.5C10.5312 3.06787 10.0693 3.53125 9.5 3.53125ZM3.3125 0.09375C1.98563 0.09375 0.90625 1.17587 0.90625 2.5C0.90625 3.82413 1.98563 4.90625 3.3125 4.90625C4.638 4.90625 5.71875 3.8255 5.71875 2.5C5.71875 1.1745 4.63663 0.09375 3.3125 0.09375ZM3.3125 3.53125C2.74325 3.53125 2.28125 3.06925 2.28125 2.5C2.28125 1.93212 2.74462 1.46875 3.3125 1.46875C3.88037 1.46875 4.34375 1.93075 4.34375 2.5C4.34375 3.06787 3.88175 3.53125 3.3125 3.53125Z" fill="#0F1419"/>
-                    </svg>                    
+                    <path
+                        d="M15.6875 0.09375C14.3606 0.09375 13.2812 1.17587 13.2812 2.5C13.2812 3.82413 14.3593 4.90625 15.6875 4.90625C17.013 4.90625 18.0938 3.8255 18.0938 2.5C18.0938 1.1745 17.013 0.09375 15.6875 0.09375ZM15.6875 3.53125C15.1182 3.53125 14.6562 3.06925 14.6562 2.5C14.6562 1.93212 15.1196 1.46875 15.6875 1.46875C16.2554 1.46875 16.7188 1.93075 16.7188 2.5C16.7188 3.06787 16.2568 3.53125 15.6875 3.53125ZM9.5 0.09375C8.17175 0.09375 7.09375 1.17587 7.09375 2.5C7.09375 3.82413 8.17313 4.90625 9.5 4.90625C10.8269 4.90625 11.9062 3.8255 11.9062 2.5C11.9062 1.1745 10.8282 0.09375 9.5 0.09375ZM9.5 3.53125C8.93075 3.53125 8.46875 3.06925 8.46875 2.5C8.46875 1.93212 8.93213 1.46875 9.5 1.46875C10.0679 1.46875 10.5312 1.93075 10.5312 2.5C10.5312 3.06787 10.0693 3.53125 9.5 3.53125ZM3.3125 0.09375C1.98563 0.09375 0.90625 1.17587 0.90625 2.5C0.90625 3.82413 1.98563 4.90625 3.3125 4.90625C4.638 4.90625 5.71875 3.8255 5.71875 2.5C5.71875 1.1745 4.63663 0.09375 3.3125 0.09375ZM3.3125 3.53125C2.74325 3.53125 2.28125 3.06925 2.28125 2.5C2.28125 1.93212 2.74462 1.46875 3.3125 1.46875C3.88037 1.46875 4.34375 1.93075 4.34375 2.5C4.34375 3.06787 3.88175 3.53125 3.3125 3.53125Z"
+                        fill="#0F1419" />
+                </svg>
             </div>
         </div>
     </section>
 
-
-    <section class="w-1/2 pt-4">
-        <div class="flex justify-between border-b-2 px-3">
+    <section class="w-1/2 pt-8 border">
+        <div class="flex justify-between border-b-2 px-3 text-xl font-bold">
             <h1>Home</h1>
             <div>
-                <svg class="fill-[#090a0a] " width="24" height="22" viewBox="0 0 24 22" fill="none"
+                <svg class="fill-[#090a0a] " width="40" height="40" viewBox="0 0 24 22" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M22.772 9.506L17.154 7.314L14.994 0.814003C14.892 0.507003 14.604 0.300003 14.282 0.300003C13.96 0.300003 13.672 0.507003 13.57 0.813003L11.41 7.313L5.79 9.505C5.503 9.617 5.313 9.895 5.313 10.205C5.313 10.515 5.503 10.79 5.791 10.903L11.411 13.095L13.571 19.595C13.673 19.901 13.961 20.108 14.283 20.108C14.605 20.108 14.893 19.901 14.995 19.595L17.155 13.095L22.775 10.903C23.062 10.791 23.252 10.513 23.252 10.203C23.252 9.893 23.062 9.618 22.774 9.506H22.772ZM16.282 11.826C16.074 11.906 15.912 12.076 15.842 12.286L14.282 16.981L12.722 12.288C12.652 12.078 12.492 11.908 12.284 11.826L8.129 10.206L12.283 8.584C12.491 8.504 12.653 8.334 12.723 8.122L14.283 3.429L15.843 8.123C15.913 8.335 16.073 8.505 16.281 8.586L20.436 10.206L16.281 11.828L16.282 11.826ZM6.663 2.812H4.783V1.05C4.783 0.636003 4.446 0.300003 4.033 0.300003C3.62 0.300003 3.283 0.636003 3.283 1.05V2.812H1.5C1.086 2.812 0.75 3.148 0.75 3.562C0.75 3.976 1.086 4.312 1.5 4.312H3.282V6.074C3.282 6.488 3.618 6.824 4.032 6.824C4.446 6.824 4.782 6.488 4.782 6.074V4.312H6.662C7.077 4.312 7.412 3.976 7.412 3.562C7.412 3.148 7.077 2.812 6.662 2.812H6.663ZM9.198 18.434H8.098V17.418C8.098 17.004 7.763 16.668 7.348 16.668C6.933 16.668 6.598 17.004 6.598 17.418V18.434H5.57C5.156 18.434 4.82 18.77 4.82 19.184C4.82 19.598 5.156 19.934 5.57 19.934H6.6V20.95C6.6 21.364 6.935 21.7 7.35 21.7C7.765 21.7 8.1 21.364 8.1 20.95V19.934H9.198C9.612 19.934 9.948 19.598 9.948 19.184C9.948 18.77 9.612 18.434 9.198 18.434Z"
@@ -122,52 +123,107 @@
                 </svg>
             </div>
         </div>
-        <div>
+        
             <div class="flex py-3 px-3 gap-2">
-                <img class="rounded-full" width="60" src="./assets/img/Profile Picture.png" alt="">
-                <input type="text" class="outline-none border-none   h-9 mt-5" placeholder="What’s happening?">
+                <img class="rounded-full" width="60" src="./assets/img/Profile Picture.svg" alt="">
+                <input type="text" class="outline-none border-none w-full  h-9 mt-5" placeholder="What’s happening?">
                 <br>
 
             </div>
-            <div class="flex justify-between border-b-2 ">
+            <div class="flex justify-between border-b-2 items-center">
                 <div class="flex gap-3 px-14 ">
-                    <img class="h-7" src="./assets/img/image.png" alt="">
+
                     <img class="h-7" src="./assets/img/gif.png" alt="">
                     <img class="h-7" src="./assets/img/poll.png" alt="">
                     <img class="h-7" src="./assets/img/smile.png" alt="">
                     <img class="h-7" src="./assets/img/calendar.png" alt="">
                 </div>
                 <div class="px-5">
-                    <button class="bg-blue-300 rounded-full px-14 py-3 mb-2">Tweet</button>
+                    <button class="bg-blue-300 rounded-full px-14 py-3 mb-2 ">Tweet</button>
                 </div>
             </div>
-            <div>
+            <div class="w-full h-3 bg-[white]"></div>
+            <div class="flex flex-col gap-2 border">
                 <div class="flex px-3 py-3 gap-3">
-                    <img class="rounded-full" width="60" src="./assets/img/Profile Picture.png" alt="">
+                    <img class="rounded-full" width="60" src="./assets/img/Profile Picture2.svg" alt="">
                     <p class="  mt-2"> <strong>Devon Lane</strong><i> @johndue.23s</i><br>
                         Tom is in a big hurry.
                     </p>
                 </div>
-                <img class="pl-20 pr-5  w-full  h-" src="./assets/img/Container.png" alt="">
-                <ul class="flex justify-between px-40 py-10">
-                    <li class="flex gap-2 items-center"><img class="rounded-full h-10" src="./assets/img/image.png"
-                            alt="">61</li>
-                    <li class="flex gap-2 items-center"><img class="rounded-full h-10" src="./assets/img/gif.png"
-                            alt="">12</li>
-                    <li class="flex gap-2 items-center text-red-500"><img class="rounded-full h-10"
-                            src="./assets/img/poll.png" alt="">6.2k</li>
-                    <li class="flex gap-2 items-center"><img class="rounded-full h-10" src="./assets/img/calendqr.png"
-                            alt="">61</li>
-                </ul>
-                <a href="" class="text-blue-200 pl-40">Show this thread</a>
+                <img class="pl-20 pr-5 h-80  w-full " src="./assets/img/container.svg" alt="">
+                <div class="icon-bar flex space-x-4 justify-evenly">
+                    <!-- Comment Button -->
+                    <button class="flex items-center space-x-1 text-gray-600 hover:text-blue-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                          </svg>                          
+                        <span>61</span>
+                    </button>
+                     <!-- Retweet Button -->
+                    <button class="flex items-center space-x-1 text-gray-600 hover:text-blue-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                          </svg>                          
+                        <span>61</span>
+                    </button>
+                    <!-- Like Button -->
+                    <button class="flex items-center space-x-1 text-gray-600 hover:text-red-500">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21C7.439 16.677 4 13.412 4 9.6A4.6 4.6 0 018.6 5c1.478 0 2.813.804 3.4 2.029A4.373 4.373 0 0115.4 5c2.53 0 4.6 2.07 4.6 4.6 0 3.812-3.439 7.077-8 11.4z"></path></svg>
+                        <span>12</span>
+                    </button>
+                    <!-- Share Button -->
+                    <button class="flex items-center space-x-1 text-gray-600 hover:text-green-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" />
+                          </svg>                          
+                        <span>6.2k</span>
+                    </button>
+                </div>
+                <a href="" class="text-[#1DA1F2] pl-32">Show this thread</a>
             </div>
-
+<div>
+    <div class="flex flex-col gap-2 border">
+        <div class="flex px-3 py-3 gap-3">
+            <img class="rounded-full" width="60" src="./assets/img/Profile Picture3.svg" alt="">
+            <p class="  mt-2"> <strong>Devon Lane</strong><i> @johndue.23s</i><br>
+                Tom is in a big hurry.
+            </p>
+        </div>
+        <img class="pl-20 pr-5 h-80  w-full " src="./assets/img/Placehpolder2.svg" alt="">
+        <div class="icon-bar flex space-x-4 justify-evenly">
+            <!-- Comment Button -->
+            <button class="flex items-center space-x-1 text-gray-600 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                  </svg>                          
+                <span>61</span>
+            </button>
+             <!-- Retweet Button -->
+            <button class="flex items-center space-x-1 text-gray-600 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                  </svg>                          
+                <span>61</span>
+            </button>
+            <!-- Like Button -->
+            <button class="flex items-center space-x-1 text-gray-600 hover:text-red-500">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21C7.439 16.677 4 13.412 4 9.6A4.6 4.6 0 018.6 5c1.478 0 2.813.804 3.4 2.029A4.373 4.373 0 0115.4 5c2.53 0 4.6 2.07 4.6 4.6 0 3.812-3.439 7.077-8 11.4z"></path></svg>
+                <span>12</span>
+            </button>
+            <!-- Share Button -->
+            <button class="flex items-center space-x-1 text-gray-600 hover:text-green-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" />
+                  </svg>                          
+                <span>6.2k</span>
+            </button>
+</div>
     </section>
 
-    <section class="w-1/4 pl-6 pt-2">
+    <section class="flex flex-col gap-4 w-1/4 pl-6 pt-4">
         <form class="relative">
             <input type="text" placeholder="Search Twitter"
-                class="w-full pl-10 pr-4 py-1 bg-[#EBEEF0] border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                class="w-full h-14 pl-10 pr-4 py-1 bg-[#EBEEF0] border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
             <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                     fill="#5B7083">
@@ -176,52 +232,64 @@
                 </svg>
             </div>
         </form>
-<div class="bg-[#EBEEF0] pl-4 rounded-2xl mt-4">
-    <div class="flex justify-center items-center">
-        <div class="flex flex-col gap-2">
-            <h1 class="font-bold text-2xl">What’s happening</h1>
-            <span class="text-sm text-gray-500 ">COVID19 . Last night</span>
-            <p class="font-bold">England’s Chief Medical Officer says the UK is at the most dangerous time of the
-                pandemic</p>
-            <span class="text-sm text-gray-500">Trending with #covid19</span>
+        <div class="bg-[#EBEEF0] pl-4 rounded-2xl flex flex-col gap-8 px-4">
+            <div class="flex justify-center items-center">
+                <div class="flex flex-col gap-4 border-b-2">
+                    <h1 class="font-bold text-2xl border-b-2">What’s happening</h1>
+                    <span class="text-sm text-gray-500 ">COVID19 . Last night</span>
+                    <p class="font-bold">England’s Chief Medical Officer says the UK is at the most dangerous time of
+                        the
+                        pandemic</p>
+                    <span class="text-sm text-gray-500">Trending with <a class="text-[#1DA1F2]"
+                            href="#">#covid19</a></span>
+                </div>
+                <img class="rounded-xl" src="./assets/img/Placeholder3.svg" alt="">
+            </div>
+
+            <div class="flex justify-center items-center border-b-2">
+                <div>
+                    <span class="text-sm text-gray-500 ">US news . 4h ago</span>
+                    <p class="font-bold">Parler may go offline following suspensions by Amazon, Apple and Google</p>
+                    <span class="text-sm text-gray-500">Trending with<a class="text-[#1DA1F2]" href="#">#covid19</a>
+                    </span>
+                </div>
+                <img class="w-50 rounded-xl" src="./assets/img/placeholder1.svg" alt="">
+            </div>
+            <div class="flex justify-center items-center border-b-2">
+                <div>
+                    <span class="text-sm text-gray-500 ">India . 1h ago</span>
+                    <p class="font-bold">India vs Australia: India hold on to earn a draw on Day 5 in Sydney Test</p>
+                    <span class="text-sm text-gray-500">Trending with<a class="text-[#1DA1F2]" href="#">#covid19</a>
+                    </span>
+                </div>
+                <img class="w-50 rounded-xl" src="./assets/img/Placeholder4.svg" alt="">
+            </div>
+            <div>
+                <span class="text-[#1DA1F2]">Show more</span>
+            </div>
         </div>
-        <img src="./assets/img/Placeholder3.svg" alt="">
-    </div>
-<div class="flex">
-<div class="flex flex-col justify-center items-center">
-    <span class="text-sm text-gray-500 ">US news . 4h ago</span>
-    <p class="font-bold">Parler may go offline following suspensions by Amazon, Apple and Google</p>
-    <span class="text-sm text-gray-500">Trending with #covid19</span>
-</div>
-<img class="w-50" src="./assets/img/placeholder1.svg" alt="">
-</div>
-    <div class="flex justify-center items-center">
-        <div>
-            <span class="text-sm text-gray-500 ">India . 1h ago</span>
-            <p class="font-bold">India vs Australia: India hold on to earn a draw on Day 5 in Sydney Test</p>
-            <span class="text-sm text-gray-500">Trending with #covid19</span>
         </div>
-     <img class="w-50" src="./assets/img/Placeholder4.svg" alt="">
-    </div>
-    <div>
-        <span class="text-[#1DA1F2]">Show more</span>
-    </div>
-</div>
-        <div class="bg-[#EBEEF0] pl-4 mt-4 rounded-2xl">
+
+        <div class="bg-[#EBEEF0] pl-4 rounded-2xl flex flex-col gap-8">
             <h1 class="font-bold text-xl">Who to follow</h1>
-            <div class="flex gap-2">
+            <div class="flex gap-2 border-b-2 border-t-2">
                 <div> <img src="./assets/img/bessie.png" alt=""> </div>
                 <div><span>Bessie Cooper</span><br>
-                    <span class="text-base text-gray-500">@alessandro</span>
+                    <span class="text-base text-gray-500">@alessandroveronezi</span>
                 </div>
                 <div><a class="border px-5 rounded-full text-[#1DA1F2] border-[#1DA1F2]" href="#">follow</a></div>
             </div>
-            <div class="flex gap-2">
-                <div> <img src="./assets/img/jenny.png" alt=""> </div>
-                <div><span>Jenny Wilson</span><br>
-                    <span class="text-base text-gray-500">@gabrielcantarin</span>
+            <div>
+                <div class="flex gap-2 border-b-2">
+                    <div> <img src="./assets/img/jenny.png" alt=""> </div>
+                    <div><span>Jenny Wilson</span><br>
+                        <span class="text-base text-gray-500">@gabrielcantarin</span>
+                    </div>
+                    <div>
+                        <a class="border px-5 rounded-full text-[#1DA1F2] border-[#1DA1F2]" href="#">follow</a>
+                    </div>
+
                 </div>
-                <div><a class="border px-5 rounded-full text-[#1DA1F2] border-[#1DA1F2]" href="#">follow</a></div>
 
             </div>
             <div>
@@ -231,7 +299,7 @@
         <div class="w-60">
             <span class="text-xs text-[#5B7083]">Terms of Service Privacy Policy Cookie Policy
                 Ads info More © 2021 Twitter, Inc.</span>
-            </div>
+        </div>
     </section>
 </body>
 
